@@ -36,10 +36,7 @@ Results:
 * ``SER``, ``BER``, ``ref_part``, ``fa_dur``, ``fa_seg``, ``fa_mean`` is from [URL](https://github.com/X-LANCE/BER)
 * pyannote-audio is from [URL](https://github.com/pyannote/pyannote-audio)
 
-## Test Case
-This case is from [VBx](https://github.com/BUTSpeechFIT/VBx)
 
-```python run_for_all.py -r cases/callhome_part2_ref_gt.rttm -s ./cases/prediction_callhome_part2_vbx.rttm```
 
 Results:
 ```
