@@ -1,0 +1,10 @@
+ipython==7.34.0
+intervaltree>=3.0.0
+numpy>=1.16.2
+scipy>=0.17.0
+tabulate>=0.5.0
+pydub==0.25.1
+torchvision
+pyannote.audio==3.0
+
+
