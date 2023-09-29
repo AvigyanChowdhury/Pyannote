@@ -6,11 +6,11 @@ Support ``DER``, ``JER``, ``CDER``, ``SER`` and ``BER``
 
 <h3> Usage with docker</h3>
 
-3. Run Docker image in order to test with existing audio file from Voxconverse<br />
+Run Docker image in order to test with existing audio file from Voxconverse<br />
 ```docker push avigyan/pyannote```<br />
 ```docker run avigyan/pyannote```<br />
 
-<h3> In order to test using custom wav files perform the following:</h3> <br />
+In order to test using custom wav files perform the following: <br />
 
 1.Clone repository<br />
 2.Add wav file and rttm in app folder<br />
