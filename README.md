@@ -1,5 +1,5 @@
-# Pyannote model to test audio files for speaker diarization
-# Metrics calculated using Diarization Metric in One repository
+# Integration of Pyannote model and Evaluation for Speaker Diarization
+ Metrics calculated using Diarization Metric in One repository
 
 Support ``DER``, ``JER``, ``CDER``, ``SER`` and ``BER``
 
