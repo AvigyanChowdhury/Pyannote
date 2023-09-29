@@ -3,22 +3,22 @@
 
 Support ``DER``, ``JER``, ``CDER``, ``SER`` and ``BER``
 
-## Usage
+<h3> Usage</h3>
 
 3. Run Docker image in order to test with existing audio file from Voxconverse<br />
 ```docker push avigyan/pyannote```<br />
 ```docker run avigyan/pyannote```<br />
 
-##In order to test using custom wav files perform the following:
+<h3>In order to test using custom wav files perform the following:</h3><br />
 1.Clone repository<br />
 2.Add wav file and rttm in app folder<br />
 3.change wav file name in inference.py<br />
 4.change reference rttm name in main.py<br />
 5.Build new image or RUN<br />
 
-#new image <br />
+<h3>new image</h3> <br />
 '''docker build -t pyannote:tagname'''<br />
-#run<br />
+<h3>run</h3><br />
 '''docker run pyannote:tagname'''<br />
 
 
