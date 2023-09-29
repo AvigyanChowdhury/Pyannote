@@ -1,9 +1,10 @@
+
 # Integration of Pyannote model and Evaluation for Speaker Diarization
  Metrics calculated using Diarization Metric in One repository
 
 Support ``DER``, ``JER``, ``CDER``, ``SER`` and ``BER``
 
-<h3> Usage</h3>
+<h3> Usage with docker</h3>
 
 3. Run Docker image in order to test with existing audio file from Voxconverse<br />
 ```docker push avigyan/pyannote```<br />
@@ -21,6 +22,17 @@ Support ``DER``, ``JER``, ``CDER``, ``SER`` and ``BER``
 '''docker build -t pyannote:tagname'''<br />
 <h3>run</h3><br />
 '''docker run pyannote:tagname'''<br />
+
+
+<h3> Usage without docker</h3>
+
+1.Clone repository<br />
+2.Add wav file and rttm in app folder<br />
+3.change wav file name in inference.py<br />
+4.change reference rttm name in main.py<br />
+5.Move to app directory and install requirements.txt using ''pip install -r requirements.txt'''
+5.run python main.py
+
 
 
 
