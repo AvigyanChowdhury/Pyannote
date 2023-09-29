@@ -9,7 +9,8 @@ Support ``DER``, ``JER``, ``CDER``, ``SER`` and ``BER``
 ```docker push avigyan/pyannote```<br />
 ```docker run avigyan/pyannote```<br />
 
-<h3>In order to test using custom wav files perform the following:</h3><br />
+<h3> In order to test using custom wav files perform the following:</h3> <br />
+
 1.Clone repository<br />
 2.Add wav file and rttm in app folder<br />
 3.change wav file name in inference.py<br />
