@@ -24,7 +24,7 @@ In order to test using custom wav files perform the following: <br />
 '''docker run pyannote:tagname'''<br />
 
 
-<h3> Usage without docker</h3>
+<h3> Usage without docker(Linux environment required)</h3>
 
 1.Clone repository<br />
 2.Add wav file and rttm in app folder<br />
